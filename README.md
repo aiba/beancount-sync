@@ -66,7 +66,7 @@ Basicaly [this reddit post](https://www.reddit.com/r/plaintextaccounting/comment
 
 ## What I want
 
-I want something like beancount-import, but which just uses a professional, reliable, supported API like [plaid](), [yodlee](), or [teller]().  I don't mind paying for the API.
+I want something like beancount-import, but which just uses a professional, reliable, supported API like [plaid](https://plaid.com/), [yodlee](https://developer.yodlee.com/), or [teller](https://teller.io/).  I don't mind paying for the API.
 
 I'm not sure which API is best.  My sense is plaid, but I'm open to whichever supports the most financial institutions and has best data quality.
 
