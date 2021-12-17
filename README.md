@@ -1,6 +1,6 @@
 ## Background
 
-Accounting software is useful for both individuals and businesses, in particular to keep be able to run reorts on income and expenses, which leads to better financial decisions.
+Accounting software is useful for both individuals and businesses, in particular to keep be able to run reports on income and expenses, which leads to better financial decisions.
 
 Most software in this category is crap, because they don't implement double-entry accounting with hierarchical accounts.  You can read all about this here:
 * https://plaintextaccounting.org/
@@ -20,11 +20,11 @@ Most software in this category is crap, because they don't implement double-entr
 
 Beancount lacks a good, automated way to import new financial data.
 
-The official documentation mentions [this riduclous process](https://beancount.github.io/docs/importing_external_data.html) of manually downloading data files from every financial institution and laboriously bringing them into the beancount file.  This is too tedious.
+The official documentation mentions [this ridiculous process](https://beancount.github.io/docs/importing_external_data.html) of manually downloading data files from every financial institution and laboriously bringing them into the beancount file.  This is too tedious.
 
 ## Alternatives to beancount
 
-Before diving in to beancount importing, it would be nice if there were already a piece of software that did hierarchical double-entry accounting and had good import functionality, but I cannot find such softare.  In particular, these softwares don't work very well:
+Before diving in to beancount importing, it would be nice if there were already a piece of software that did hierarchical double-entry accounting and had good import functionality, but I cannot find such software.  In particular, these apps don't work very well:
 
 * quickbooks: the closest thing to what I want, but has fatal problems.
 	* sync is good (uses OFX)
@@ -36,7 +36,7 @@ Before diving in to beancount importing, it would be nice if there were already 
 	* Spiritually very similar to beancount.
 	* XML file format is not edible in a text editor.
 	* Scripting is possible but annoying, requires linking into gnucash C++ codebase.
-	* UI is clunky, imlemented in GTK using C++.
+	* UI is clunky, implemented in GTK using C++.
 	* Data import is so/so.  Implemented using OFX, which is not as good as plaid.  UI for reconciling is decent.
 * mint.com:
 	* sync is good
