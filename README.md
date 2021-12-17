@@ -50,16 +50,16 @@ Before diving in to beancount importing, it would be nice if there were already 
 * Poor documentation.
 * Some potentially good ideas in the web interface.
 
-[https://github.com/madhat2r/plaid2text](plaid2text)
+[plaid2text](https://github.com/madhat2r/plaid2text)
 * Not very actively maintained.
 * I couldn't get it to work at all.  (Though I should try again.)
 * terminal-based UI probably not as good as would be with web UI like beancount-import.
 * "Mappings File" seems like a good idea.
 
-[https://github.com/mbafford/plaid-sync/](plaid-sync)
+[plaid-sync](https://github.com/mbafford/plaid-sync/)
 * Haven't tried it yet.
 
-[https://github.com/ebridges/plaid2qif](plaid2qif)
+[plaid2qif](https://github.com/ebridges/plaid2qif)
 * Haven't tried it yet, but according to [this comment](https://www.reddit.com/r/plaintextaccounting/comments/qscfpm/comment/hkd1yf7/?utm_source=share&utm_medium=web2x&context=3), it works.  I should give it a try.
 
 Basicaly [this reddit post](https://www.reddit.com/r/plaintextaccounting/comments/qktexr/ofx_imports_in_fava/) sums it up: "Importing OFX data into beancount/fava seems like FAR too much trouble, that is poorly documented, and no solution appears to work 100% correct".
@@ -82,5 +82,3 @@ Requirements:
 * Eventually, we might want to iterate on a UI for importing/reconciling and learning about account mappings.
 	* gnucash has a great UI for this.
 	* There also seem to be good ideas in beancount-import and plaid2text.
-
-
