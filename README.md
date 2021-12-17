@@ -46,18 +46,19 @@ Before diving in to beancount importing, it would be nice if there were already 
 ## Existing efforts at beancount importing
 
 [beancount-import](https://github.com/jbms/beancount-import).
-* Fundamentally driven by importing text files that you have to download.  Downloading those text files is outside the scope of beancount-import, though there is another project, [finance-dl](https://github.com/jbms/finance-dl) that does this.  However, finance-dl only handles institutions that work with OFX, which many institutions do not.
+* Fundamentally driven by importing text files that you have to download.  Downloading those text files is outside the scope of beancount-import, though there is another project, [finance-dl](https://github.com/jbms/finance-dl) that does this.
+  * Unfortunately, finance-dl uses [ofxclient](https://github.com/captin411/ofxclient) which is an extinct project that no longer handles a bunch of financial institutions.
 * Poor documentation.
 * Some potentially good ideas in the web interface.
 
 [plaid2text](https://github.com/madhat2r/plaid2text)
 * Not very actively maintained.
-* I couldn't get it to work at all.  (Though I should try again.)
+* Royal pain to get set up.  I couldn't get it to work at all.
 * terminal-based UI probably not as good as would be with web UI like beancount-import.
 * "Mappings File" seems like a good idea.
 
 [plaid-sync](https://github.com/mbafford/plaid-sync/)
-* Haven't tried it yet.
+* Seems OK, but only syncs plaid data sources to a local sqlite DB, then you are on your own for writing code to convert that sqlite DB to beancount ledger data, avoid duplicates, etc.
 
 [plaid2qif](https://github.com/ebridges/plaid2qif)
 * Haven't tried it yet, but according to [this comment](https://www.reddit.com/r/plaintextaccounting/comments/qscfpm/comment/hkd1yf7/?utm_source=share&utm_medium=web2x&context=3), it works.  I should give it a try.
