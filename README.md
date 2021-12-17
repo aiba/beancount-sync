@@ -61,7 +61,8 @@ Before diving in to beancount importing, it would be nice if there were already 
 * Seems OK, but only syncs plaid data sources to a local sqlite DB, then you are on your own for writing code to convert that sqlite DB to beancount ledger data, avoid duplicates, etc.
 
 [plaid2qif](https://github.com/ebridges/plaid2qif)
-* Haven't tried it yet, but according to [this comment](https://www.reddit.com/r/plaintextaccounting/comments/qscfpm/comment/hkd1yf7/?utm_source=share&utm_medium=web2x&context=3), it works.  I should give it a try.
+* According to [this comment](https://www.reddit.com/r/plaintextaccounting/comments/qscfpm/comment/hkd1yf7/?utm_source=share&utm_medium=web2x&context=3), this project is a good way to download plaid data as QIF.
+* Unfortunately, there doesn't appear to be a good way to convert QIF to beancount.
 
 Basicaly [this reddit post](https://www.reddit.com/r/plaintextaccounting/comments/qktexr/ofx_imports_in_fava/) sums it up: "Importing OFX data into beancount/fava seems like FAR too much trouble, that is poorly documented, and no solution appears to work 100% correct".
 
